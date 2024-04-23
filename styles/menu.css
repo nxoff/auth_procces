@@ -1,0 +1,43 @@
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.menu {
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 10vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: var(--menu-bottom-border-px) solid rgb(200, 200, 200); */
+}
+
+.menu > div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-sign-button {
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  height: fit-content;
+}
+
+.menu-sign-button:hover {
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home-page-link {
+  color: white;
+  text-decoration: none;
+}

@@ -1,7 +1,9 @@
-const Home = () => {
+import '@/styles/home.css'
+
+const Home = async () => {
   return (
     <div>
-      <h1>lmao</h1>
+      <h1>Strona Internetowa</h1>
     </div>
   )
 }
